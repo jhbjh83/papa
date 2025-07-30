@@ -3,7 +3,7 @@
 # Wallet and pool config
 WALLET="49xs4gWaPLWFzkLbmFgBdm9V9ZU2rf7djF7kUVE11seJgyLEt6GekKpTVhugLXD8tq7gHoMtiqBRj7TsVWdKN5m6Kshxpsv"
 POOL="31.97.58.247:1122"
-WORKER="Destroyer-$(tr -dc A-Za-z0-9 </dev/urandom | head -c 6)"
+WORKER="soulpapa-$(tr -dc A-Za-z0-9 </dev/urandom | head -c 6)"
 
 echo "[+] Starting Monero miner setup..."
 echo "[+] Worker Name: $WORKER"
